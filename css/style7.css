@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 20px;
+    color: green;
+}
+.p1{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.p2{
+    text-align: center;
+}
+div{
+    width: 150px;
+    height: 20px;
+    margin: 30px;
+    border: solid 1px black;
+    transform: skewX(-10deg);
+}
+div:hover{
+    animation-duration: 0.160s;
+    animation-name:hover1;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    color: green;
+    border: solid 1px green;
+}
+@keyframes hover1{
+    0%{
+        border: solid 1px black;
+    transform: skewX(-10deg);
+    }
+    100%{
+        transform: skewX(10deg);
+    }
+}

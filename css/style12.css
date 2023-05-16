@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    animation-name: box1;
+    animation-duration: 1s;
+    background-color: green;
+    animation-iteration-count:infinite;
+}
+@keyframes box1{
+    0%{
+        background-color: green;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: red;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: green;
+    }
+}

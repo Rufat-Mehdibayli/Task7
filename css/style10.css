@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 40px;
+}
+main{
+    display: flex;
+    gap:80px;
+    justify-content: center;
+    margin-top: 100px;
+}
+p{
+    padding-top:40% ;
+    text-align: center;
+}
+div{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(83, 132, 145);
+    transition:all 0.2s ease-in-out;
+}
+.box1:hover{
+    transform: rotateX(-230deg);
+}
+.box2:hover{
+    transform: rotateY(230deg);
+}
+.box3:hover{
+    transform: rotateZ(200deg);
+}

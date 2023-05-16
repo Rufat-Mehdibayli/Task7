@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    background-color: blue;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    color:white;
+}
+div:hover{
+    background-color:dimgray;
+    color: black;
+}

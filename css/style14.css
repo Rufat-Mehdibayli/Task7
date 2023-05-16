@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.cyan1, .cyan2, .cyan3, .cyan4, .cyan5{
+  background-color: #77D7A4;
+  width: 20px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.blue1, .blue2, .blue3, .blue4, .blue5{
+  background-color: #1B2B69;
+  width: 20px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.cyan1{
+  animation: cyan1 1.5s infinite ease-in-out;
+  
+  
+}
+
+@keyframes cyan1 {
+  0%{
+    transform: scaleY(1);
+  }
+
+  50%{
+    transform: scaleY(2.5);
+  }
+
+  100%{
+    transform: scaleY(1);
+    
+  }
+}
+
+
+.cyan2{
+  animation: cyan2 1.5s infinite ease-in-out;
+  animation-delay: 0.4s;
+  
+}
+
+@keyframes cyan2 {
+  0%{
+    transform: scaleY(1);
+  }
+
+  50%{
+    transform: scaleY(2.5);
+  }
+
+  100%{
+    transform: scaleY(1);
+    
+  }
+}
+
+.cyan3{
+  animation: cyan3 1.5s infinite ease-in-out;
+  animation-delay: 0.5s;
+  
+}
+
+@keyframes cyan3 {
+  0%{
+    transform: scaleY(1);
+  }
+
+  50%{
+    transform: scaleY(2.5);
+  }
+
+  100%{
+    transform: scaleY(1);
+    
+  }
+}
+
+
+.cyan4{
+  animation: cyan4 1.5s infinite ease-in-out;
+  animation-delay: 0.6s;
+  
+}
+
+@keyframes cyan4 {
+  0%{
+    transform: scaleY(1);
+  }
+
+  50%{
+    transform: scaleY(2.5);
+  }
+
+  100%{
+    transform: scaleY(1);
+    
+  }
+}
+
+.cyan5{
+  animation: cyan5 1.5s infinite ease-in-out;
+  animation-delay: 0.7s;
+  
+}
+
+@keyframes cyan5 {
+  0%{
+    transform: scaleY(1);
+  }
+
+  50%{
+    transform: scaleY(2.5);
+  }
+
+  100%{
+    transform: scaleY(1);
+    
+  }
+}
+
+
+.blue5{
+  animation: blue5 1.5s infinite ease-in-out;
+  
+  
+}
+
+@keyframes blue5 {
+  0%{
+    transform: scaleY(1);
+  }
+
+  50%{
+    transform: scaleY(2.5);
+  }
+
+  100%{
+    transform: scaleY(1);
+    
+  }
+}
+
+
+.blue4{
+  animation: blue4 1.5s infinite ease-in-out;
+  animation-delay:1.2s;
+  
+}
+
+@keyframes blue4 {
+  0%{
+    transform: scaleY(1);
+  }
+
+  50%{
+    transform: scaleY(2.5);
+  }
+
+  100%{
+    transform: scaleY(1);
+    
+  }
+}
+
+.blue3{
+  animation: blue3 1.5s infinite ease-in-out;
+  animation-delay:1.1s;
+  
+}
+
+@keyframes blue3 {
+  0%{
+    transform: scaleY(1);
+  }
+
+  50%{
+    transform: scaleY(2.5);
+  }
+
+  100%{
+    transform: scaleY(1);
+    
+  }
+}
+
+.blue2{
+  animation: blue2 1.5s infinite ease-in-out;
+  animation-delay:1s;
+  
+}
+
+@keyframes blue2 {
+  0%{
+    transform: scaleY(1);
+  }
+
+  50%{
+    transform: scaleY(2.5);
+  }
+
+  100%{
+    transform: scaleY(1);
+    
+  }
+}
+
+
+.blue1{
+  animation: blue1 1.5s infinite ease-in-out;
+  animation-delay:0.7s;
+  
+}
+
+@keyframes blue1 {
+  0%{
+    transform: scaleY(1);
+  }
+
+  50%{
+    transform: scaleY(2.5);
+  }
+
+  100%{
+    transform: scaleY(1);
+    
+  }
+}

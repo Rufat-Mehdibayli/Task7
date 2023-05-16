@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+p{
+    width: 70%;
+    margin-left:20px ;
+}
+h1{
+    margin: 20px;
+
+}
+.container{
+    
+    width: 600px;
+    height: 600px;
+    border: solid 1px black;
+    position: relative;
+}
+.Lorem{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container:hover > .Lorem{
+    animation-name:hover1;
+    animation-duration:8s;
+    animation-timing-function: ease-in;
+    animation-iteration-count:infinite;
+}
+@keyframes hover1{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left:500px;
+    }
+    50%{
+        top: 500px;
+        left:500px;
+    }
+    75%{
+        top:500px;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
